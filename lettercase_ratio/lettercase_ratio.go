@@ -29,6 +29,6 @@ func main() {
         }
         upper_ratio := (100 * upper)/(upper + lower)
         lower_ratio := (100 * lower)/(upper + lower)
-        fmt.Printf("Upper: %.2f Lower: %.2f\n", upper_ratio, lower_ratio)
+        fmt.Printf("lowercase: %.2f uppercase: %.2f\n", lower_ratio, upper_ratio)
     }
 }
